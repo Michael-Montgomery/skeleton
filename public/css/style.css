@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+}
+
+.welcome-wrapper-one {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("http://i.imgur.com/lT4b5wY.jpg");
+    padding-left: 0;
+}
+
+#intro-div {
+    float: left;
+    margin-top: 40vh;
+    background-color: rgba(252, 88, 83,.7);
+}
+
+#intro-div h1 {
+
+}
+
+#intro-div h2 {
+
+}
+
+#intro-social-list {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 93vh;
+    padding-left: 0;
+}
+
+#intro-social-list li {
+    display: inline;
+    margin: 0 2vw;
+}
+
+#intro-social-list li a {
+    color: white;
+    font-size: 2.7em;
+    opacity: .6;
+}
+
+#intro-social-list li a:hover {
+    opacity: 1;
+    transition: all .6s;
+}

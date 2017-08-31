@@ -1,0 +1,30 @@
+.header {
+    height: 70px;
+}
+
+
+.header nav {
+    text-align: center;
+    line-height: 70px;
+}
+
+.first-letter {
+    display: inline;
+}
+
+.header nav a {
+    font-size: 3.5em;
+    font-family: 'Poiret One', cursive;
+    padding: 0 3vw;
+    color: white;
+    opacity: .7;
+    transition: all .5s;
+}
+
+.header nav a:last-child {
+    float: right;
+}
+.header nav a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
